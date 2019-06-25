@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { NavComponent } from './nav/nav.component';
 import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
+import { AddLandInfoComponent } from './add-land-info/add-land-info.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 
 @NgModule({
@@ -15,10 +17,12 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     NavComponent,
     MainComponent,
-    FooterComponent
+    FooterComponent,
+    AddLandInfoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
