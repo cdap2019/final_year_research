@@ -9,6 +9,7 @@ import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 import { AddLandInfoComponent } from './add-land-info/add-land-info.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { MapComponent } from './map/map.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
     NavComponent,
     MainComponent,
     FooterComponent,
-    AddLandInfoComponent
+    AddLandInfoComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
